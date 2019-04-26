@@ -4,7 +4,7 @@ set -e
 
 if [ "$#" -ne 1 ]; then
   echo "prismagraphql/prisma tag required, e.g."
-  echo "./build_and_push.sh 1.30"
+  echo "./build_and_push_tag.sh 1.30"
   exit 1
 fi
 
